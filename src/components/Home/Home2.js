@@ -17,22 +17,38 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a motivated engineering student with a strong interest in embedded systems, FPGA design, AI/ML, and signal processing. My experience spans across multiple domains, including working on FPGA-based projects with the Artix-7 board. Additionally, I am actively exploring IoT applications, particularly in radar-based traffic detection and management.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C++, Embedded C, MATLAB. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
                 <b className="purple">
-                  Electronic Communication
-                </b>
+                  
+                <br />
+                  Embedded Systems & FPGA Design,
+
+                  <br />
+                  AI/ML & Signal Processing,
+
+                  <br />
+                  IoT & Radar-Based Sensing,
+
+                  <br />
+                  Optoelectronics & Materials Science,
+
+                  <br />
+                  Wireless Communication & Networking,
+
+                  <br />
+                  Algorithm Design & Optimization</b>
+                {/* <b className="purple">
+                  FPGA boards also
+                </b> */}
               </i>
               <br />
               <br />

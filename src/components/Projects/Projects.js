@@ -2,9 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import yelp from "../../Assets/Projects/yelp.png"
+import airbnb from "../../Assets/Projects/airbnb.png"
 
 function Projects() {
   return (
@@ -20,10 +19,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={yelp}
               isBlog={false}
-              title="LocalSphere - Yelp Clone Application"
-              description="LocalSphere is a web application designed to help users discover and interact with local businesses. Built with the PERN stack, it allows users to explore businesses, leave reviews, and rate their experiences. The app features a robust PostgreSQL database for efficient management of business details, user profiles, and reviews, ensuring a smooth and scalable user experience."
+              title="Yelp Clone Application"
+              description="Yelp is a web application designed to help users discover and interact with local businesses. Built with the PERN stack, it allows users to explore businesses, leave reviews, and rate their experiences. The app features a robust PostgreSQL database for efficient management of business details, user profiles, and reviews, ensuring a smooth and scalable user experience."
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
             />
@@ -31,16 +30,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={airbnb}
               isBlog={false}
-              title="E-Commerce Web Application"
-              description="This project is a fully functional e-commerce platform developed using the MERN stack, enabling users to browse products, manage their cart, and complete transactions with an integrated payment gateway. The platform features a secure user authentication system and ensures a seamless shopping experience through optimized performance with lazy loading and state management using Redux. The application provides a modern, scalable solution for online shopping with a user-friendly interface."
+              title="Airbnb clone Web Application"
+              description="A full-stack web application that replicates Airbnb’s core features, built with Next.js for the frontend, Django for the backend, and Docker for containerization. It includes user authentication, property listings, search & filtering, and a booking system, ensuring seamless performance and scalability. The backend is powered by a Django REST API, while Docker enables smooth deployment across environments. 🚀"
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -49,7 +48,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
